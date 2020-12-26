@@ -94,4 +94,4 @@ Feel free to dive in! [Open an issue](https://github.com/xazab/js-xazab-sdk/issu
 
 ## License
 
-[MIT](/LICENSE) © Dash Core Group, Inc.
+[MIT](/LICENSE) © Dash Core Group, Inc.| © Xazab Foundation

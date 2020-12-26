@@ -79,5 +79,5 @@ client.getWalletAccount().then(async (account) => {
 
 ## Licence
 
-[MIT](https://github.com/dashevo/dashjs/blob/master/LICENCE.md) © Dash Core Group, Inc.
+[MIT](https://github.com/xazab/js-xazab-sdk/blob/master/LICENCE.md) © Dash Core Group, Inc. | © Xazab Foundations
 

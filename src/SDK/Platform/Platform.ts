@@ -1,7 +1,7 @@
 // @ts-ignore
-import { default as _DashPlatformProtocol } from '@dashevo/dpp';
+import { default as _XazabPlatformProtocol } from '@xazab/dpp';
 
 export namespace Platform {
-    export let DashPlatformProtocol = _DashPlatformProtocol;
+    export let XazabPlatformProtocol = _XazabPlatformProtocol;
 }
 export { Platform as default };

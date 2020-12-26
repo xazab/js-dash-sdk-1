@@ -1,7 +1,7 @@
 import {Platform} from "../../Platform";
 
 // @ts-ignore
-import Identifier from "@dashevo/dpp/lib/Identifier";
+import Identifier from "@xazab/dpp/lib/Identifier";
 
 declare type ContractIdentifier = string | Identifier;
 

@@ -1,11 +1,11 @@
-const Dash = require('dash');
+const Xazab = require('xazab');
 const clientOpts = {
   network: 'testnet',
   wallet: {
     mnemonic: 'your mnemonic here',
   },
 };
-const client = new Dash.Client(clientOpts);
+const client = new Xazab.Client(clientOpts);
 
 const createIdentity = async function () {
   await client.isReady();

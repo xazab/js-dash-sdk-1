@@ -1,9 +1,9 @@
 {
-  "name": "dash",
+  "name": "xazab",
   "version": "3.17.0-dev.5",
-  "description": "Dash library for JavaScript/TypeScript ecosystem (Wallet, DAPI, Primitives, BLS, ...)",
+  "description": "Xazab library for JavaScript/TypeScript ecosystem (Wallet, DAPI, Primitives, BLS, ...)",
   "main": "build/src/index.js",
-  "unpkg": "dist/dash.min.js",
+  "unpkg": "dist/xazab.min.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
     "start:dev": "nodemon --exec 'npm run build && npm run test:unit'",
@@ -22,19 +22,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dashevo/DashJS.git"
+    "url": "git+https://github.com/xazab/js-xazab-sdk.git"
   },
-  "author": "Dash Core Group <contact@dash.org>",
+  "author": "Xazab Core Group <contact@xazab.xyz>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dashevo/DashJS/issues"
+    "url": "https://github.com/xazab/js-xazab-sdk/issues"
   },
-  "homepage": "https://github.com/dashevo/DashJS#readme",
+  "homepage": "https://github.com/xazab/js-xazab-sdk#readme",
   "dependencies": {
-    "@dashevo/dapi-client": "~0.17.0-dev.4",
-    "@dashevo/dashcore-lib": "~0.19.12",
-    "@dashevo/dpp": "~0.17.0-dev.6",
-    "@dashevo/wallet-lib": "~7.17.0-dev.4",
+    "@xazab/dapi-client": "~0.17.0-dev.4",
+    "@xazab/xazabcore-lib": "~0.19.12",
+    "@xazab/dpp": "~0.17.0-dev.6",
+    "@xazab/wallet-lib": "~7.17.0-dev.4",
     "bs58": "^4.0.1"
   },
   "devDependencies": {

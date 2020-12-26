@@ -24,7 +24,7 @@ Parameters:
    const queryOpts = {
          where: [
              ['normalizedLabel', '==', 'alice'],
-             ['normalizedParentDomainName', '==', 'dash'],
+             ['normalizedParentDomainName', '==', 'xazab'],
          ],
      };
   await client.platform.documents.get('dpns.domain', queryOpts);

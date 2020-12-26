@@ -10,12 +10,12 @@ Parameters:
 
 **Example**: 
 
-This example will describe how to search all names on the parent domain `dash` that starts with the label prefix `al`. 
+This example will describe how to search all names on the parent domain `xazab` that starts with the label prefix `al`. 
 It will resolves names documents such as `alice`, `alex` etc...   
 
 ```js
 const labelPrefix = 'al';
-const parentDomain = 'dash';
+const parentDomain = 'xazab';
 const document = await client.platform.names.search(labelPrefix, parentDomain);
 ```
 

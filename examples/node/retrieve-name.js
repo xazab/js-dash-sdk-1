@@ -1,9 +1,9 @@
-const Dash = require('dash');
+const Xazab = require('xazab');
 
 const clientOpts = {
   network: 'testnet'
 };
-const client = new Dash.Client(clientOpts);
+const client = new Xazab.Client(clientOpts);
 
 const platform = client.platform;
 

@@ -1,21 +1,21 @@
 import { expect } from 'chai';
 import { Client } from "./index";
 import 'mocha';
-import { Transaction } from "@dashevo/dashcore-lib";
+import { Transaction } from "@xazab/xazabcore-lib";
 import { createFakeInstantLock } from "../../utils/createFakeIntantLock";
-import Identity from '@dashevo/dpp/lib/identity/Identity';
-import stateTransitionTypes from '@dashevo/dpp/lib/stateTransition/stateTransitionTypes';
+import Identity from '@xazab/dpp/lib/identity/Identity';
+import stateTransitionTypes from '@xazab/dpp/lib/stateTransition/stateTransitionTypes';
 import { createDapiClientMock } from "../../test/mocks/createDapiClientMock";
 
 // @ts-ignore
-const TxStreamMock = require('@dashevo/wallet-lib/src/test/mocks/TxStreamMock');
+const TxStreamMock = require('@xazab/wallet-lib/src/test/mocks/TxStreamMock');
 // @ts-ignore
-const TransportMock = require('@dashevo/wallet-lib/src/test/mocks/TransportMock');
+const TransportMock = require('@xazab/wallet-lib/src/test/mocks/TransportMock');
 // @ts-ignore
-const TxStreamDataResponseMock = require('@dashevo/wallet-lib/src/test/mocks/TxStreamDataResponseMock');
+const TxStreamDataResponseMock = require('@xazab/wallet-lib/src/test/mocks/TxStreamDataResponseMock');
 
 const mnemonic = 'agree country attract master mimic ball load beauty join gentle turtle hover';
-describe('Dash - Client', function suite() {
+describe('Xazab - Client', function suite() {
   this.timeout(30000);
 
   let txStreamMock;

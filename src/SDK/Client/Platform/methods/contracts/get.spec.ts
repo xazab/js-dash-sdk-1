@@ -2,9 +2,9 @@ import {expect} from 'chai';
 import get from "./get";
 import identitiesFixtures from "../../../../../../tests/fixtures/identities.json";
 import contractsFixtures from "../../../../../../tests/fixtures/contracts.json";
-import DataContractFactory from "@dashevo/dpp/lib/dataContract/DataContractFactory";
-import ValidationResult from "@dashevo/dpp/lib/validation/ValidationResult";
-import Identifier from "@dashevo/dpp/lib/Identifier";
+import DataContractFactory from "@xazab/dpp/lib/dataContract/DataContractFactory";
+import ValidationResult from "@xazab/dpp/lib/validation/ValidationResult";
+import Identifier from "@xazab/dpp/lib/Identifier";
 import 'mocha';
 import {ClientApps} from "../../../ClientApps";
 

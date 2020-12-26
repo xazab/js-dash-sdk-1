@@ -1,4 +1,4 @@
-import { Transaction } from "@dashevo/dashcore-lib";
+import { Transaction } from "@xazab/xazabcore-lib";
 import { Platform } from "../../../Platform";
 import { createFakeInstantLock } from "../../../../../../utils/createFakeIntantLock";
 

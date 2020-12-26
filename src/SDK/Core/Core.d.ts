@@ -12,7 +12,7 @@ import {
     Script as _Script,
     PublicKey as _PublicKey,
     PrivateKey as _PrivateKey
-} from '@dashevo/dashcore-lib';
+} from '@xazab/xazabcore-lib';
 
 export declare namespace Core {
     export type Transaction = _Transaction;

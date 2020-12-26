@@ -1,6 +1,6 @@
 import {Platform} from "../../Platform";
 // @ts-ignore
-import Identifier from "@dashevo/dpp/lib/Identifier";
+import Identifier from "@xazab/dpp/lib/Identifier";
 
 /**
  * Get an identity from the platform

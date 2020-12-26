@@ -1,5 +1,5 @@
 // @ts-ignore
-import DashPlatformProtocol from "@dashevo/dpp";
+import XazabPlatformProtocol from "@xazab/dpp";
 
 import Client from "../Client";
 
@@ -62,7 +62,7 @@ interface Identities {
 }
 
 /**
- * Class for Dash Platform
+ * Class for Xazab Platform
  *
  * @param documents - documents
  * @param identities - identites
@@ -70,7 +70,7 @@ interface Identities {
  * @param contracts - contracts
  */
 export class Platform {
-    dpp: DashPlatformProtocol;
+    dpp: XazabPlatformProtocol;
     passFakeAssetLockProofForTests: boolean;
 
     public documents: Records;
@@ -130,7 +130,7 @@ export class Platform {
             checkAssetLockTransactionOutPointExists() { return false; },
         };
 
-        this.dpp = new DashPlatformProtocol({
+        this.dpp = new XazabPlatformProtocol({
             identities: {
                 skipAssetLockProofSignatureVerification: true,
             },

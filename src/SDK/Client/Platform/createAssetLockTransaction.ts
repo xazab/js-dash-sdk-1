@@ -1,5 +1,5 @@
-import { PrivateKey, Transaction } from "@dashevo/dashcore-lib";
-import { utils } from "@dashevo/wallet-lib";
+import { PrivateKey, Transaction } from "@xazab/xazabcore-lib";
+import { utils } from "@xazab/wallet-lib";
 import { Platform } from "./Platform";
 
 // We're creating a new transaction every time and the index is always 0
@@ -8,7 +8,7 @@ const ASSET_LOCK_OUTPUT_INDEX = 0;
 /**
  * Creates a funding transaction for the platform identity and returns one-time key to sign the state transition
  * @param {Platform} platform
- * @param {number} fundingAmount - amount of dash to fund the identity's credits
+ * @param {number} fundingAmount - amount of xazab to fund the identity's credits
  * @return {{transaction: Transaction, privateKey: PrivateKey}} - transaction and one time private key
  * that can be used to sign registration/top-up state transition
  */

@@ -1,11 +1,11 @@
-const Dash = require('dash');
+const Xazab = require('xazab');
 const clientOpts = {
   network: 'testnet',
   wallet: {
     mnemonic: null, // Will generate a new address, you should keep it.
   },
 };
-const client = new Dash.Client(clientOpts);
+const client = new Xazab.Client(clientOpts);
 
 const displayFundingAddress = async function () {
   const {account, wallet} = client;

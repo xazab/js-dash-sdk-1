@@ -1,8 +1,8 @@
-### About Dash Platform
+### About Xazab Platform
 
-The Dash Platform provide a technology stack on top of the Dash Network allowing the creation of feature-rich decentralized application. 
+The Xazab Platform provide a technology stack on top of the Xazab Network allowing the creation of feature-rich decentralized application. 
 
-You will learn more on the [Dash Platform Documentation - What is Dash Platform ?](https://dashplatform.readme.io/docs/introduction-what-is-dash-platform).
+You will learn more on the [Xazab Platform Documentation - What is Xazab Platform ?](https://xazabplatform.readme.io/docs/introduction-what-is-xazab-platform).
 
 ### Platform components
 

@@ -11,8 +11,8 @@ const webConfig =  {
   output: {
     path: path.resolve(__dirname, 'dist'),
     libraryTarget: 'umd',
-    library: 'Dash',
-    filename: 'dash.min.js',
+    library: 'Xazab',
+    filename: 'xazab.min.js',
     // fixes ReferenceError: window is not defined
     globalObject: "(typeof self !== 'undefined' ? self : this)"
   },

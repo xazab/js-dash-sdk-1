@@ -1,45 +1,45 @@
-## Dash SDK
+## Xazab SDK
 
-[![Package Version](https://img.shields.io/github/package-json/v/dashevo/dashjs.svg?&style=flat-square)](https://www.npmjs.org/package/dash)
-[![Build Status](https://img.shields.io/travis/com/dashevo/dashjs.svg?branch=master&style=flat-square)](https://travis-ci.com/dashevo/dashjs)
+[![Package Version](https://img.shields.io/github/package-json/v/xazab/js-xazab-sdk.svg?&style=flat-square)](https://www.npmjs.org/package/xazab)
+[![Build Status](https://img.shields.io/travis/com/xazab/js-xazab-sdk.svg?branch=master&style=flat-square)](https://travis-ci.com/xazab/js-xazab-sdk)
 
-> Client-side library for wallet payment/signing and application development with Dash. (Wallet, DAPI, Primitives, BLS, ...)
+> Client-side library for wallet payment/signing and application development with Xazab. (Wallet, DAPI, Primitives, BLS, ...)
 
 ---
 
-Dash SDK is intended to provide, in a single entry-point all the different features, classes & utils you might need to interface with the Dash network.
+Xazab SDK is intended to provide, in a single entry-point all the different features, classes & utils you might need to interface with the Xazab network.
 
 ## Install
 
 ## Browser 
 
 ```html
-<script src="https://unpkg.com/dash"></script>
+<script src="https://unpkg.com/xazab"></script>
 ```
 
 ## Node
 
-In order to use this library, you will need to add our [NPM package](https://www.npmjs.com/dash) to your project.
+In order to use this library, you will need to add our [NPM package](https://www.npmjs.com/xazab) to your project.
 
 Having [NodeJS](https://nodejs.org/) installed, just type :
 
 ```bash
-npm install dash
+npm install xazab
 ```
 
 ### Usage 
 
 ```js
-const Dash = require("dash");
+const Xazab = require("xazab");
 
-const client = new Dash.Client({
+const client = new Xazab.Client({
   network: "testnet",
   wallet: {
     mnemonic: "arena light cheap control apple buffalo indicate rare motor valid accident isolate",
   },
 });
 
-// Accessing an account allow you to transact with the Dash Network
+// Accessing an account allow you to transact with the Xazab Network
 client.getWalletAccount().then(async (account) => {
   console.log("Funding address", account.getUnusedAddress().address);
 
@@ -47,7 +47,7 @@ client.getWalletAccount().then(async (account) => {
   console.log("Confirmed Balance", balance);
 
   if(balance > 0){
-    // Creating an identity is the basis of all interactions with the Dash Platform
+    // Creating an identity is the basis of all interactions with the Xazab Platform
     const identity = await client.platform.identities.register()
     
     // Prepare a new document containing a simple hello world sent to a hypothetical tutorial contract
@@ -73,8 +73,8 @@ client.getWalletAccount().then(async (account) => {
 - [Use another BIP44 account](/examples/use-different-account.md) 
     
 ### Tutorial
-- [Register an identity](https://dashplatform.readme.io/docs/tutorial-register-an-identity)
-- [Register a Name for an Identity](https://dashplatform.readme.io/docs/tutorial-register-a-name-for-an-identity)
+- [Register an identity](https://xazabplatform.readme.io/docs/tutorial-register-an-identity)
+- [Register a Name for an Identity](https://xazabplatform.readme.io/docs/tutorial-register-a-name-for-an-identity)
     
 
 ## Licence

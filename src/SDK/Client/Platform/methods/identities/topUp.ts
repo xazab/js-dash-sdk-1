@@ -1,5 +1,5 @@
 // @ts-ignore
-import Identifier from "@dashevo/dpp/lib/Identifier";
+import Identifier from "@xazab/dpp/lib/Identifier";
 import {Platform} from "../../Platform";
 
 import { wait } from "../../../../../utils/wait";

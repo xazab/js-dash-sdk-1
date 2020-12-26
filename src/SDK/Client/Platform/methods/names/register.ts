@@ -1,7 +1,7 @@
 import {Platform} from "../../Platform";
-import Identifier from "@dashevo/dpp/lib/Identifier";
+import Identifier from "@xazab/dpp/lib/Identifier";
 
-const hash = require('@dashevo/dpp/lib/util/hash');
+const hash = require('@xazab/dpp/lib/util/hash');
 const crypto = require('crypto');
 
 /**
@@ -10,8 +10,8 @@ const crypto = require('crypto');
  * @param {Platform} this - bound instance class
  * @param {string} name - name
  * @param {Object} records - records object having only one of the following items
- * @param {string} [records.dashUniqueIdentityId]
- * @param {string} [records.dashAliasIdentityId]
+ * @param {string} [records.xazabUniqueIdentityId]
+ * @param {string} [records.xazabAliasIdentityId]
  * @param identity - identity
  *
  * @returns registered domain document
@@ -19,20 +19,20 @@ const crypto = require('crypto');
 export async function register(this: Platform,
                                name: string,
                                records: {
-                                   dashUniqueIdentityId?: Identifier|string,
-                                   dashAliasIdentityId?: Identifier|string,
+                                   xazabUniqueIdentityId?: Identifier|string,
+                                   xazabAliasIdentityId?: Identifier|string,
                                },
                                identity: {
                                    getId(): Identifier;
                                    getPublicKeyById(number: number):any;
                                },
 ): Promise<any> {
-    if (records.dashUniqueIdentityId) {
-        records.dashUniqueIdentityId = Identifier.from(records.dashUniqueIdentityId);
+    if (records.xazabUniqueIdentityId) {
+        records.xazabUniqueIdentityId = Identifier.from(records.xazabUniqueIdentityId);
     }
 
-    if (records.dashAliasIdentityId) {
-        records.dashAliasIdentityId = Identifier.from(records.dashAliasIdentityId);
+    if (records.xazabAliasIdentityId) {
+        records.xazabAliasIdentityId = Identifier.from(records.xazabAliasIdentityId);
     }
 
     const nameLabels = name.split('.');

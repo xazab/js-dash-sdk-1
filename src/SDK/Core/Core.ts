@@ -1,2 +1,2 @@
-import * as Core from '@dashevo/dashcore-lib';
+import * as Core from '@xazab/xazabcore-lib';
 export { Core };

@@ -1,7 +1,7 @@
 import { wait } from '../../../../../utils/wait';
 import {Platform} from "../../Platform";
 import broadcastStateTransition from '../../broadcastStateTransition';
-import Document from '@dashevo/dpp/lib/document/Document';
+import Document from '@xazab/dpp/lib/document/Document';
 
 /**
  * get Document DataContract name

@@ -1,4 +1,4 @@
-const DashJS = require('dash');
+const XazabJS = require('xazab');
 
 const sdkOpts = {
   network: 'testnet',
@@ -6,7 +6,7 @@ const sdkOpts = {
     mnemonic: 'your mnemonic here',
   },
 };
-const sdk = new DashJS.Client(sdkOpts);
+const sdk = new XazabJS.Client(sdkOpts);
 
 const registerContract = async function () {
   await sdk.isReady();

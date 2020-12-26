@@ -1,8 +1,8 @@
-import { Account, Wallet } from "@dashevo/wallet-lib";
-import DAPIClientTransport from "@dashevo/wallet-lib/src/transport/DAPIClientTransport/DAPIClientTransport"
+import { Account, Wallet } from "@xazab/wallet-lib";
+import DAPIClientTransport from "@xazab/wallet-lib/src/transport/DAPIClientTransport/DAPIClientTransport"
 import { Platform } from './Platform';
-import { Network } from "@dashevo/dashcore-lib";
-import DAPIClient from "@dashevo/dapi-client";
+import { Network } from "@xazab/xazabcore-lib";
+import DAPIClient from "@xazab/dapi-client";
 import { ClientApps, ClientAppsOptions } from "./ClientApps";
 
 /**
@@ -34,8 +34,8 @@ export interface ClientOpts {
 }
 
 /**
- * Client class that wraps all components together to allow integrated payments on both the Dash Network (layer 1)
- * and the Dash Platform (layer 2).
+ * Client class that wraps all components together to allow integrated payments on both the Xazab Network (layer 1)
+ * and the Xazab Platform (layer 2).
  */
 export class Client {
     public network: string = 'evonet';

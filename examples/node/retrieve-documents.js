@@ -1,9 +1,9 @@
-const Dash = require('dash');
+const Xazab = require('xazab');
 
 const clientOpts = {
   network: 'testnet'
 };
-const client = new Dash.Client(clientOpts);
+const client = new Xazab.Client(clientOpts);
 
 const getDocuments = async function () {
   let platform = client.platform;
@@ -12,7 +12,7 @@ const getDocuments = async function () {
   const queryOpts = {
     where: [
        ['normalizedLabel', 'startsWith', 'd'],
-       ['normalizedParentDomainName', '==', 'dash'],
+       ['normalizedParentDomainName', '==', 'xazab'],
    ],
   };
 

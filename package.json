@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/xazab/js-xazab-sdk#readme",
   "dependencies": {
-    "@xazab/dapi-client": "~0.17.0-dev.4",
-    "@xazab/xazabcore-lib": "~0.19.12",
-    "@xazab/dpp": "~0.17.0-dev.6",
-    "@xazab/wallet-lib": "~7.17.0-dev.4",
+    "@xazab/dapi-client": "~0.17.0-dev.5",
+    "@xazab/xazabcore-lib": "~0.19.19",
+    "@xazab/dpp": "~0.17.0-dev.9",
+    "@xazab/wallet-lib": "~7.17.0-dev.5",
     "bs58": "^4.0.1"
   },
   "devDependencies": {

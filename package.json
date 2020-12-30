@@ -1,6 +1,6 @@
 {
   "name": "xazab",
-  "version": "3.17.0-dev.7",
+  "version": "3.17.0",
   "description": "Xazab library for JavaScript/TypeScript ecosystem (Wallet, DAPI, Primitives, BLS, ...)",
   "main": "build/src/index.js",
   "unpkg": "dist/xazab.min.js",

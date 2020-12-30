@@ -1,6 +1,6 @@
 {
   "name": "xazab",
-  "version": "3.17.0-dev.6",
+  "version": "3.17.0-dev.7",
   "description": "Xazab library for JavaScript/TypeScript ecosystem (Wallet, DAPI, Primitives, BLS, ...)",
   "main": "build/src/index.js",
   "unpkg": "dist/xazab.min.js",
@@ -31,10 +31,11 @@
   },
   "homepage": "https://github.com/xazab/js-xazab-sdk#readme",
   "dependencies": {
-    "@xazab/dapi-client": "~0.17.0-dev.5",
+<<<<<<< HEAD
+    "@xazab/dapi-client": "~0.17.1",
     "@xazab/xazabcore-lib": "~0.19.19",
-    "@xazab/dpp": "~0.17.0-dev.9",
-    "@xazab/wallet-lib": "~7.17.0-dev.5",
+    "@xazab/dpp": "~0.17.0",
+    "@xazab/wallet-lib": "~7.17.1",
     "bs58": "^4.0.1"
   },
   "devDependencies": {
